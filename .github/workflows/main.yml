@@ -10,3 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - uses: asg017/actions/acsweb
+      with:
+        username: asg017
+        password: ${{secrets.password}}
+        local_dir: ./test
