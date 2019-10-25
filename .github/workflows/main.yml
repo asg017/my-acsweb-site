@@ -12,5 +12,5 @@ jobs:
     - uses: asg017/actions/acsweb@master
       with:
         username: asg017
-        password: ${{secrets.password}}
+        password: "${{secrets.password}}"
         local_dir: ./test
