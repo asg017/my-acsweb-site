@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - uses: asg017/actions/acsweb
+    - uses: asg017/actions/acsweb@master
       with:
         username: asg017
         password: ${{secrets.password}}
