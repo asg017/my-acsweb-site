@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - uses: asg017/actions/acsweb@master
+    - uses: os-ucsd/actions/acsweb@0.1.0
       with:
         username: asg017
         password: "${{secrets.password}}"
