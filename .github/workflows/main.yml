@@ -13,4 +13,3 @@ jobs:
       with:
         username: asg017
         password: "${{secrets.password}}"
-        local_dir: ./test/
